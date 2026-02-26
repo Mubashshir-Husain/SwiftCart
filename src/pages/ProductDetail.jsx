@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { data, useParams, Link } from 'react-router-dom'
-import { initialProducts } from '../data/product'
+import { initialProducts } from '../data/Product.js'
 import { useCart } from '../context/CartContaxt';
 
 import { ShoppingCart, ChevronLeft, Tag, Zap } from "lucide-react";
