@@ -1,7 +1,7 @@
 import React from 'react'
 import CartItem from '../components/CartItm.jsx'
 
-import { useCart } from '../context/CartContaxt,jsx'
+import { useCart } from '../context/CartContaxt.jsx'
 import { Link } from 'react-router-dom'
 
 import { ShoppingCart, ChevronLeft, Zap } from 'lucide-react'
