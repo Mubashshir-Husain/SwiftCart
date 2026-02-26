@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { House, ShoppingCart } from 'lucide-react'
-import { useCart } from '../context/CartContaxt'
+import { useCart } from '../context/CartContaxt.jsx'
 
 export default function Navbar() {
 

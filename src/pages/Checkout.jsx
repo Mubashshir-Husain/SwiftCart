@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import { useCart } from "../context/CartContaxt";
-import OrderConfimation from './OrderConformation'
+import { useCart } from "../context/CartContaxt.jsx";
+import OrderConfimation from './OrderConformation.jsx'
 
 import { Package, MapPin, Zap } from "lucide-react";
 

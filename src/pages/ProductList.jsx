@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import SearchFilter from '../components/SearchFilter'
-import CategoryFilter from '../components/CategoryFilter'
-import ProductCard from '../components/ProductCard'
+import SearchFilter from '../components/SearchFilter.jsx'
+import CategoryFilter from '../components/CategoryFilter.jsx'
+import ProductCard from '../components/ProductCard.jsx'
 
-import { useCart } from '../context/CartContaxt'
+import { useCart } from '../context/CartContaxt.jsx'
 
 export default function ProductList() {
 

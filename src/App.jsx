@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import ProductList from './pages/ProductList'
-import Cart from './pages/Cart'
-import Checkout from './pages/Checkout'
-import ProductDetail from './pages/ProductDetail'
-import Footer from './components/Footer'
+import Navbar from './components/Navbar.jsx'
+import ProductList from './pages/ProductList.jsx'
+import Cart from './pages/Cart.jsx'
+import Checkout from './pages/Checkout.jsx'
+import ProductDetail from './pages/ProductDetail.jsx'
+import Footer from './components/Footer.jsx'
 
 import { ToastContainer, toast, Bounce } from 'react-toastify';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'

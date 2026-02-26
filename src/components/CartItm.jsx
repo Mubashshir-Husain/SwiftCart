@@ -1,5 +1,5 @@
 import React from "react";
-import {useCart} from '../context/CartContaxt'
+import {useCart} from '../context/CartContaxt.jsx'
 
 import { X } from "lucide-react";
 
